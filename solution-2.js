@@ -7,6 +7,7 @@ let sum = 0
 let sum2 = 0
 
 
+
 //for loop to automate injection of all sets into an object
 for (i=0; i<newArray.length;i++){
   let count = 1
@@ -28,7 +29,7 @@ for (key in obj){
 }
 console.log('sum of overlapping element: ',sum)
 
-//sum of distinct character 
+//sum of distinct elements
  for (key in obj) {
    if (obj[key] === 1){
      sum2 += parseInt(key)

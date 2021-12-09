@@ -2,6 +2,7 @@ let set1 = [2,4,1,9,3]
 let set2 = [3,1,7,9]
 let sum = 0
 let sum2 = 0
+
 //sum of overlapping element
 for (i=0; i<set1.length;i++) {
     for (j=0;j<set2.length;j++){
